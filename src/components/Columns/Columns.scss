@@ -1,0 +1,17 @@
+@use '../../styles/variables/global.scss' as *;
+@use 'sass:color';
+
+.columns {
+  font-size: small;
+  font-family: 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  padding: 10px 10px;
+  height: 10px;
+  width: 10px;
+}
+
+.ant-table-wrapper .ant-table-cell .ant-table-thead > tr > th {
+  padding: 13px 13px;
+}
